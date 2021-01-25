@@ -1,6 +1,6 @@
-# OMDB 
+# OMDB API
 
-### Introduction
+## Overview
 
 In this exercise you will fetch movie data from the [OMDB API](http://www.omdbapi.com/) and render it in the browser.
 This is a deliberately broad assignment in preparation for P1.
@@ -15,21 +15,19 @@ First, head over to the OMDB website and sign up for your own API key (free opti
 If you look at the files we've given you, you will find some basic HTML and CSS to get you started. In the Javascript file, we've set you up a base url for your endpoint. All you need to do is plug in your API key and add your parameter to the end.
 
 
+## Getting Started 
+- `Fork` and `clone` this repo.
+- `cd` into it and `code .`
+
 ### Requirements
 
 - A text input + button for searching OMDB by _movie title_(provided in the starter code.)
 - Display a list of movies returned by the search api call.  At least the movie's title and poster should be visible. Feel free to include movie year as well.
 - Incorporate CSS flexbox into your page.
 
-### Setup 
-
-- Fork and clone this repo.
-- `cd` into it and `code .`
-
 ### Steps
 
 Here is a compressed and totally not mandatory suggested guide for getting through the task:
-
 
 - Attach an event listener that simply logs the text value of the input
 - Next, add the `axios` api call.  For searching, the url should look something like this: `http://www.omdbapi.com/?apikey=[yourkey]&s=[movietitle]`
@@ -59,3 +57,11 @@ We will need an event listener either on the movie's poster or a button near the
 
 
 <img src="https://media0.giphy.com/media/oe1kFNiUhLcSA/giphy.gif" width="700px">
+
+
+## Recap
+
+## Resources
+
+
+
