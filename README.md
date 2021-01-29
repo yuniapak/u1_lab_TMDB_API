@@ -1,5 +1,7 @@
 # OMDB API
 
+![movie](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FrF9IEPtjdIJmE%2Fgiphy.gif&f=1&nofb=1)
+
 ## Overview
 
 In this exercise you will fetch movie data from the [OMDB API](http://www.omdbapi.com/) and render it in the browser.
@@ -42,6 +44,8 @@ For this first bit, you should be able to verify in the console that you are suc
 
 Before moving on, try to verify that you can enter text into the text input, click the button, and then see a list of movies appear on the page
 
+![Mike](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2F54451401d52c0dd2fe9ee5752857d53c%2Ftenor.gif%3Fitemid%3D3579864&f=1&nofb=1)
+
 ### Bonus !!!
 
 If you need an extra challenge and practice, let's get ready to add a viewDetails button to each movie.
@@ -55,13 +59,8 @@ We will need an event listener either on the movie's poster or a button near the
 
 - Style the search button - make it fancy!
 
-
 <img src="https://media0.giphy.com/media/oe1kFNiUhLcSA/giphy.gif" width="700px">
 
-
-## Recap
-
 ## Resources
-
-
-
+- [Lesson: APIs](https://github.com/SEI-R-1-25/u1_lesson_intro_to_apis)
+- [Lab: APIs](https://github.com/SEI-R-1-25/u1_lab_api_dogs)
