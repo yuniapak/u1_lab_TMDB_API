@@ -5,7 +5,6 @@
 ## Overview
 
 In this exercise you will fetch movie data from the [OMDB API](http://www.omdbapi.com/) and render it in the browser.
-This is a deliberately broad assignment in preparation for P1.
 
 ## OMDB API
 
