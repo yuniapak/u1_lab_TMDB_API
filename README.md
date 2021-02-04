@@ -58,6 +58,7 @@ We will need an event listener either on the movie's poster or a button near the
 ### More Bonus !
 
 - Style the search button - make it fancy!
+- Style the whole page while you're at it! Make this a portfolio piece!
 
 <img src="https://media0.giphy.com/media/oe1kFNiUhLcSA/giphy.gif" width="700px">
 
