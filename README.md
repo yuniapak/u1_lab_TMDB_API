@@ -25,7 +25,7 @@ If you look at the files we've given you, you will find some basic HTML and CSS 
 
 - A text input + button for searching OMDB by _movie title_(provided in the starter code.)
 - Display a list of movies returned by the search api call.  At least the movie's title and poster should be visible. Feel free to include movie year as well.
-- Incorporate CSS flexbox into your page.
+- Incorporate CSS flexbox (and maybe grid?) into your page.
 
 ### Steps
 
