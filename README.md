@@ -1,15 +1,15 @@
-# OMDB API
+# TMDB API
 
 ![movie](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FrF9IEPtjdIJmE%2Fgiphy.gif&f=1&nofb=1)
 
 ## Overview
 
-In this exercise you will fetch movie data from the [OMDB API](http://www.omdbapi.com/) and render it in the browser.
+In this exercise you will fetch movie data from the [TMDB API](https://developers.themoviedb.org/3/getting-started/introduction) and render it in the browser.
 
 ## OMDB API
 
 
-First, head over to the OMDB website and sign up for your own API key (free option is perfectly fine). Next, check out the documentation under the "Usage" tab. Here you will find instructions on how to structure your endpoint for your axios calls. You can also find different parameters to use and what they are for. Remember, every API is different so you will need to read into what works for this API.
+First, head over to the TMDB website and sign up for your own API key (free option is perfectly fine). Next, check out the documentation [Here](https://developers.themoviedb.org/3/getting-started/introduction). Here you will find instructions on how to structure your endpoint for your axios calls. You can also find different parameters to use and what they are for. Remember, every API is different so you will need to read into what works for this API.
 
 ### Starter Code
 
@@ -22,8 +22,8 @@ If you look at the files we've given you, you will find some basic HTML and CSS 
 
 ### Requirements
 
-- A text input + button for searching OMDB by _movie title_(provided in the starter code.)
-- Display a list of movies returned by the search api call.  At least the movie's title and poster should be visible. Feel free to include movie year as well.
+- A text input + button for searching TMDB by _movie title_(provided in the starter code.)
+- Display a list of movies returned by the discover api call.  At least the movie's title and poster should be visible. Feel free to include movie year as well.
 - Incorporate CSS flexbox (and maybe grid?) into your page.
 
 ### Steps
@@ -51,7 +51,7 @@ If you need an extra challenge and practice, let's get ready to add a viewDetail
 We will need an event listener either on the movie's poster or a button near the movie's title that will allow a user to "select" or "view more info" about the movie.  The listener should make a second api call to fetch information about the movie. If a movie is "selected" display the movie's data at the top of the page.
 
 - Go back to the movie list.  Add a button to each movie in the list.  
-- When a user clicks on this button, pass the movie's id or title to the omdb api to fetch more information about the movie, e.g., `http://www.omdbapi.com/?apikey=[yourkey]&t=[movietitle]` or `http://www.omdbapi.com/?apikey=[yourkey]&i=[movieId]`.  Try to console log or display the url for each button and test it in the browser's navigation bar if you're having issues with this step.
+- When a user clicks on this button, pass the movie's id or title to the omdb api to fetch more information about the movie.  Try to console log or display the url for each button and test it in the browser's navigation bar if you're having issues with this step.
 - Using the data returned from the api, display the movie's additional data at the top of the page.
 
 ### More Bonus !
