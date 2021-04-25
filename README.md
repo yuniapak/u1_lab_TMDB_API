@@ -6,8 +6,7 @@
 
 In this exercise you will fetch movie data from the [TMDB API](https://developers.themoviedb.org/3/getting-started/introduction) and render it in the browser.
 
-## OMDB API
-
+## TMDB
 
 First, head over to the TMDB website and sign up for your own API key (free option is perfectly fine). Next, check out the documentation [Here](https://developers.themoviedb.org/3/getting-started/introduction). Here you will find instructions on how to structure your endpoint for your axios calls. You can also find different parameters to use and what they are for. Remember, every API is different so you will need to read into what works for this API.
 
