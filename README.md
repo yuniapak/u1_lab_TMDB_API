@@ -61,5 +61,5 @@ We will need an event listener either on the movie's poster or a button near the
 <img src="https://media0.giphy.com/media/oe1kFNiUhLcSA/giphy.gif" width="700px">
 
 ## Resources
-- [Lesson: APIs](https://github.com/SEI-R-4-26/u1_lesson_intro_to_APIs)
-- [Lab: APIs](https://github.com/SEI-R-4-26/u1_lab_API_dogs)
+- [Axios](https://github.com/axios/axios)
+- [Apis For Beginners](https://medium.com/@LewisMenelaws/a-beginners-guide-to-web-apis-and-how-they-will-help-you-23923a0da450)
