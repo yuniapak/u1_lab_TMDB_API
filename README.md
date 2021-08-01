@@ -1,6 +1,6 @@
 # TMDB API
 
-![movie](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FrF9IEPtjdIJmE%2Fgiphy.gif&f=1&nofb=1)
+![movie](https://tmdb.eu/images/logo.png)
 
 ## Overview
 
@@ -14,15 +14,15 @@ First, head over to the TMDB website and sign up for your own API key (free opti
 
 If you look at the files we've given you, you will find some basic HTML and CSS to get you started. In the Javascript file, we've set you up a base url for your endpoint. All you need to do is plug in your API key and add your parameter to the end.
 
+## Getting Started
 
-## Getting Started 
 - `Fork` and `clone` this repo.
 - `cd` into it and `code .`
 
 ### Requirements
 
 - A text input + button for searching TMDB by _movie title_(provided in the starter code.)
-- Display a list of movies returned by the discover api call.  At least the movie's title and poster should be visible. Feel free to include movie year as well.
+- Display a list of movies returned by the search api call. At least the movie's title and poster should be visible.
 - Incorporate CSS flexbox (and maybe grid?) into your page.
 
 ### Steps
@@ -30,27 +30,25 @@ If you look at the files we've given you, you will find some basic HTML and CSS 
 Here is a compressed and totally not mandatory suggested guide for getting through the task:
 
 - Attach an event listener that simply logs the text value of the input
-- Next, add the `axios` api call.  For searching, the url should look something like this: `http://www.omdbapi.com/?apikey=[yourkey]&s=[movietitle]`
+- Once you can see the value being outputted, store this in a variable outside of your even listener.
+- Next, add the `axios` api call. For searching, the url should look something like this: `https://api.themoviedb.org/3/search/movie?query=[your search query]&api_key=[yourkey]`
 - Remember to use `async` and `await` for the axios calls
-- Try to `console.log` the search results.  Or use the `network` tab in the dev tools + the preview tab for a request ot view its structure.
-![dev tools](./devtools.png)
+- Try to `console.log` the search results.
 
-For this first bit, you should be able to verify in the console that you are successfully retrieving information from omdb.
+For this first bit, you should be able to verify in the console that you are successfully retrieving information from TMDB.
 
-- Next, write a method `renderList` that receives an array of "movie" objects as a parameter.  Call `renderList` from the event handler you wrote in the previous step and pass it the Search results from the axios response
+- Next, write a method `renderList` that receives an array of "movie" objects as a parameter. Call `renderList` from the event handler you wrote in the previous step and pass it the Search results from the axios response
 - `renderList` should iterate over the movies it receives as an argument and insert the movie data from each object into the DOM as a new HTML element.
 
 Before moving on, try to verify that you can enter text into the text input, click the button, and then see a list of movies appear on the page
 
-![Mike](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2F54451401d52c0dd2fe9ee5752857d53c%2Ftenor.gif%3Fitemid%3D3579864&f=1&nofb=1)
-
 ### Bonus !!!
 
 If you need an extra challenge and practice, let's get ready to add a viewDetails button to each movie.
-We will need an event listener either on the movie's poster or a button near the movie's title that will allow a user to "select" or "view more info" about the movie.  The listener should make a second api call to fetch information about the movie. If a movie is "selected" display the movie's data at the top of the page.
+We will need an event listener either on the movie's poster or a button near the movie's title that will allow a user to "select" or "view more info" about the movie. The listener should make a second api call to fetch information about the movie. If a movie is "selected" display the movie's data at the top of the page.
 
-- Go back to the movie list.  Add a button to each movie in the list.  
-- When a user clicks on this button, pass the movie's id or title to the omdb api to fetch more information about the movie.  Try to console log or display the url for each button and test it in the browser's navigation bar if you're having issues with this step.
+- Go back to the movie list. Add a button to each movie in the list.
+- When a user clicks on this button, pass the movie's id or title to the omdb api to fetch more information about the movie. Try to console log or display the url for each button and test it in the browser's navigation bar if you're having issues with this step.
 - Using the data returned from the api, display the movie's additional data at the top of the page.
 
 ### More Bonus !
@@ -58,8 +56,7 @@ We will need an event listener either on the movie's poster or a button near the
 - Style the search button - make it fancy!
 - Style the whole page while you're at it! Make this a portfolio piece!
 
-<img src="https://media0.giphy.com/media/oe1kFNiUhLcSA/giphy.gif" width="700px">
-
 ## Resources
+
 - [Axios](https://github.com/axios/axios)
 - [Apis For Beginners](https://medium.com/@LewisMenelaws/a-beginners-guide-to-web-apis-and-how-they-will-help-you-23923a0da450)
