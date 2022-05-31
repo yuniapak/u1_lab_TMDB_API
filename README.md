@@ -1,6 +1,6 @@
 # TMDB API
 
-![movie]([https://tmdb.eu/images/logo.png](https://nbcpalmsprings.com/wp-content/uploads/sites/8/2021/12/BEST-MOVIES-OF-2021.jpeg))
+![movie](https://totalfratmove.com/wp-content/uploads/2021/04/image-7.jpeg)
 
 ## Overview
 
